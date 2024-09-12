@@ -1,0 +1,26 @@
+h1{
+    color: white;
+    background-color: black;
+    font-weight: bold;
+   
+}
+
+.hightlight{
+    color: cyan;
+}
+
+h2{
+    color:white;
+    background-color:darkviolet;
+    text-align: center;
+    font-style: italic;
+    font-weight: light;
+}
+
+h3{
+    color: black;
+    background-color: lightskyblue;
+    text-align: right;
+    text-decoration: underline;
+    font-weight: light;
+}
