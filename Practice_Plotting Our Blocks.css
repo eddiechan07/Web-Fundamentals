@@ -1,44 +1,57 @@
-.container{
-    width: 950px;
-    background-color: silver;
-    margin: 0px auto;
-    padding-top: 1px;
-}
-.top-nav {
-    height: 150px;
-    background-color: green;
-    margin: 15px;
+*{
+    margin: 0;
+    padding: 0;
 }
 
-.side-nav {
-    height: 300px;
-    width: 200px;
+.container{
+    width:1300px;
+    height: 900px;
+    background-color: darkgrey;
+    padding: 15px;
+}
+
+.topnav{
+    width: 1300px;
+    height: 200px;
+    background-color: darkgreen;
+}
+
+.sidenav{
+    width:200px;
+    height:400px;
     background-color: blue;
+    margin-top:15px;
+}
+
+.mainnav{
+    width: 1080px;
+    height: 550px;
+    background-color: red;
+    margin:15px;
+    margin-right: 0px;
+}
+
+.sidenav, .mainnav{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.submainnav{
+    width: 300px;
+    height: 300px;
+    background-color: yellow;
+    margin:14px;
+    margin-right: 0px;
+}
+
+#adv{
+    width: 930px;
+    height: 150px;
+    background-color: blueviolet;
     margin: 15px;
     margin-top: 0px;
 }
-.main {
-    height: 400px;
-    width: 700px;
-    background-color: red;
-}
-.side-nav , .main , .sub-content{
+
+.submainnav, #adv{
     display: inline-block;
-    vertical-align: top;
-
 }
-.sub-content {
-    height: 200px;
-    width: 210px;
-    background-color: yellow;
-    margin-left: 10px;
-    margin-top: 10px;
-}
-#advertisement {
-    height: 120px;
-    width: 660px;
-    background-color: purple;
-    margin: 10px;
-    margin-top: 20px;
-}
-
