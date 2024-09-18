@@ -1,0 +1,40 @@
+#box1{
+    height: 40px;
+    button{
+        width: 100px;
+        height: 30px;
+        color:aqua;
+        background-color: white;
+        font-weight: bold;
+        border: 2px solid cyan;
+        border-top-left-radius: 30%;
+        border-bottom-left-radius: 30%;
+        border-bottom-right-radius: 30%;
+        border-top-right-radius: 30%;
+        
+    }
+}
+
+#box2{
+    height: 40px;
+    button{
+        color:white;
+        background-color:aquamarine;
+        width: 30px;
+        height: 30px;
+        border-color:aquamarine;
+        border-radius: 50%;
+    }
+}
+
+#box3{
+    button{
+        width:150px;
+        height:30px;
+        font-size: 90%;
+        color: white;
+        background-color:dodgerblue;
+        border: black solid;
+        box-shadow: 3px 3px 1px black;
+    }
+}
