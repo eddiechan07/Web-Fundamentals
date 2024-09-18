@@ -8,39 +8,39 @@
 <body>
     <h1>Registration Form</h1>
         <label for="firstname">First Name: * </label>
-        <input type="text" name="firstname">
+        <input type="text" name="firstname" id="firstname">
     <div>
         <label for="lastname">Last Name: *</label>
-        <input type="text" name="lastname">
+        <input type="text" name="lastname" id="lastname">
     </div>
     <div>
         <label for="emailadress">Email Adress: *</label>
-        <input type="text" name="emailadress">
+        <input type="text" name="emailadress" id="emailadress">
     </div>
     <div>
         <label for="password">Password: *</label>
-        <input type="password" name="password">
+        <input type="password" name="password" id="password">
     </div>
     <div>
         <label for="confirmpassword">Confrim Password: *</label>
-        <input type="password" name="confirmpassword">
+        <input type="password" name="confirmpassword" id="confirmpassword">
     </div>
         <label for="birthday">Birthday:</label>
-        <input type="date" name="birthday">
+        <input type="date" name="birthday" id="birthday">
     <div>
-        <label for="genderindentity">Gender Indentity:</label>
+        <p>Gender Indentity:</p>
     </div>             
     <div>
-        <input type="radio" name="male">
+        <input type="radio" name="male" id="male">
         <label for="male">Male</label>
-        <input type="radio" name="female">
+        <input type="radio" name="female" id="female">
         <label for="female">Female</label>
-        <input type="radio" name="non-binary">
+        <input type="radio" name="non-binary" id="non-binary">
         <label for="non-binary">Non-binary</label>
-        <input type="radio" name="iprefernottoanswer">
+        <input type="radio" name="iprefernottoanswer" id="input">
         <label for="input">I prefer not to answer</label>
     </div>                     
-        <label for="discription">A short discription about myself:</label>
+        <p>A short discription about myself:</p>
     <div>
         <textarea name="discription" cols="30" rows="2">
         </textarea>
@@ -55,7 +55,7 @@
     </div>    
         <input type="submit" value="Create Account">
     <div>
-        <label for="*">*Indicates a required field:</label>
+        <p>*Indicates a required field:</p>
     </div>
 </body>
 </html>
