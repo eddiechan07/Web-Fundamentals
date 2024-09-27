@@ -47,14 +47,11 @@ button{
 }
 .namecardtop{
     background-color: rgb(17, 191, 191);
-    width: 450px;
-    height: 100px;
+    padding: 50px;
 }
 .userimage{
-    width: 80px;
-    height: 80px;
+    width: 20%;
     margin-top: -40px;
-    margin-left: 40px;
 }
 .namecardheader{
     font-size: 35px;
@@ -64,8 +61,7 @@ button{
     margin-left: 40px;
 }
 .icon{
-    width:20px;
-    height:25px;
+    width:5%;
 }
 .namecard span{
     margin-left: 20px;
@@ -111,11 +107,15 @@ h3{
 .row{
     display: flex;
     justify-content: space-between;
-    padding: 10px 30px;
+    padding: 15px 20px;
+}
+.row p{
+    display: flex;
+    align-items: center;
+    gap:10px;
 }
 .sideicon{
-    width:15px;
-    height:20px;
+    width:20px;
 }
 
 /* View More */
