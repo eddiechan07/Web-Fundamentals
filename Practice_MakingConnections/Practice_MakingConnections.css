@@ -1,0 +1,146 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+/* Top Bar*/
+.topbarcontainer{
+    background-color: black;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 20px 100px;
+}
+.topbarleft{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    gap:40px;
+}
+.topbarlinks{
+    display: flex;
+    gap: 30px;
+}
+.topbarlinks a{
+    color: white;
+    text-decoration: none;
+}
+button{ 
+    font-size: 20px;
+    color: white;
+    background-color: rgb(9, 195, 195);
+    border: 2px solid black;
+    box-shadow: 3px 3px 1px black; 
+}
+
+/* Main Body */
+.mainbodycontainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+}
+.mainbodyleft{
+    width:60%;
+}
+.mainbodyright{
+    width:35%;
+}
+
+/* Namecard */
+.namecard{
+    border: solid gray;
+}
+.namecardtop{
+    background-color: rgb(17, 191, 191);
+    padding: 50px;
+}
+.userimage{
+    width: 20%;
+    margin-top: -40px;
+}
+.namecardheader{
+    font-size: 35px;
+    margin: 10px 40px;
+}
+.namecard p{
+    margin-left: 40px;
+}
+.icon{
+    width:5%;
+}
+.namecard span{
+    margin-left: 20px;
+}
+.city{
+    margin: 10px;
+}
+
+/* Education*/
+.education{
+    border: solid gray;
+    margin-top: 20px;
+}
+h2{
+    background-color: rgb(72, 70, 70);
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px 30px;
+}
+h3{
+    margin: 20px 30px;
+    color: black;
+}
+.content{
+    margin: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Connection Requests */
+.connections{
+    border: solid gray;
+    margin-bottom: 20px;
+}
+.header{
+    font-size: 15px;
+    color: white;
+    padding: 10px;
+    gap: 15px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+}
+.row p{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.sideicon{
+    width:20px;
+}
+
+/* View More */
+#viewmore{
+    display: block;
+    padding: 10px 30px;
+    border-top: solid gray;
+}
+
+/* number */
+#number2{
+    background-color: darkgray;
+    border-radius: 50%;
+    padding: 7px 10px;
+    color: black ;
+}
+#number500{
+    background-color: darkgray;
+    border-radius: 50%;
+    padding: 5px 10px;
+    color: black;
+}

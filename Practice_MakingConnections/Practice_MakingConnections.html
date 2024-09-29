@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Practice_MakingConnections.css">
+</head>
+<body>
+    <div class="topbarcontainer">        <!-- Build Top Bar -->
+        <div class="topbarleft">
+            <h1 class="topbartitle">Profile</h1>
+            <div class="topbarlinks">
+                <a href="#">Home</a>
+                <a href="#">My Profile</a>
+                <a href="#">Find Connections</a>
+            </div>
+        </div>
+        <button>Sign Out</button>
+    </div>                                <!-- Top Bar Completed-->
+    <div class="mainbodycontainer">       <!-- Build Mainbody -->
+        <div class="mainbodyleft">  
+            <div class="namecard">         <!-- Build Namecard-->
+                <header class="namecardtop"></header>
+                <p><img class="userimage" src="./Pictures/user-circle.png" alt="userimage"></p>
+                <p class="namecardheader">Jane Doe</p>
+                <p class="city"><img class="icon" src="./Pictures/map-marker.png" alt="map"><span>Seattle</span></p>
+                <p class="title">Developer | Engineer | Problem Solver</p>
+                <p class="title">Master of shadows and the Internet!</p>
+                <p onclick="changeTheName()" class="city"><img class="icon" src="./Pictures/gear.png" alt="gear"><span>edit profile</span></p>
+            </div>                              <!-- Namecard Completed -->
+            <div class="education">             <!-- Build Education -->
+                <h2 class="top">Education</h2>
+                <h3>Coding Dojo - Full Stack Bootcamp</h3>
+                <div class="content">
+                    <p>Dec 2019 - Mar 2020</p>
+                    <p>Tripe black belt in Python, MERN, and C#...</p>
+                </div>
+            </div>                              <!-- Education Completed-->         
+        </div> 
+        <div class="mainbodyright">
+            <div class="connections">     <!-- Build Connection Requests-->
+                <h2 class="header"><span id="number2">2</span> Connection Requests</h2>
+                <div class="connectionbody">
+                    <div class="row" id="connectionRow1">
+                        <p><img class="sideicon" src="./Pictures/todd-s.jpg" alt="ToddPhoto"><span>Todd</span></p>
+                        <p><img onclick="addConnection1()" class="sideicon" src="./Pictures/accept-circle.png" alt="accept"> 
+                        <img onclick="removeConnection1(connectionRow1)" class="sideicon" src="./Pictures/close-circle.png" alt="close"></p>
+                    </div>
+                    <div class="row" id="connectionRow2">
+                        <p><img class="sideicon" src="./Pictures/phil-s.jpg" alt="PhilPhoto"><span>Phil K</span></p>
+
+                        <p><img onclick="addConnection2()" class="sideicon" src="./Pictures/accept-circle.png" alt="accept">
+                        <img onclick="removeConnection2()" class="sideicon" src="./Pictures/close-circle.png" alt="close"></p>
+                    </div>
+                </div>
+            </div>                              <!-- Connection Requests Completed-->
+            <div class="connections">        <!-- Build Your Connections-->
+                <h2 class="header"><span id="number500">500</span> Your Connections</h2>
+                <div class="connectionbody">
+                    <div class="row">
+                        <p><img class="sideicon" src="./Pictures/adrien-s.jpg" alt="AdrienPhoto"><span>Adrien</span></p>
+                    </div>
+                    <div class="row">
+                        <p><img class="sideicon" src="./Pictures/anne-s.jpg" alt="AnnePhoto"><span>Anne</span></p>
+                    </div>
+                    <div class="row">
+                        <p><img class="sideicon" src="./Pictures/adrien-s.jpg" alt="AlaynePhoto"><span>Alayne</span></p>
+                    </div>
+                    <div class="row">
+                        <p><img class="sideicon" src=".//Pictures/arry-s.jpg" alt="ArryPhoto"><span>Arry</span></p>
+                    </div>
+                </div>
+                <a id="viewmore" href="#">View More</a>
+            </div>                          <!-- Your Connections Completed-->
+        </div>
+    </div>                                  <!-- Mainbody Completed-->
+    <script src="./Practice_MakingConnections.js"></script>
+</body>
