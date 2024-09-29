@@ -1,0 +1,25 @@
+.box{
+    border:solid black;
+    display: flex;
+    flex-direction: column;
+    width:40%;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+button{
+    background-color: rgb(180, 180, 25);
+    border: solid black 2px;
+    box-shadow: 2px 2px;
+    padding: 8px 12px;
+    font-weight: bolder;
+}
+
+h3{
+    padding: 0px 20px;
+}
+
