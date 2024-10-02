@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Exam.css">
+</head>
+<body>
+    <div class="top">
+        <p class="ads">FREE PHONE GRIP ON SELECT PURCHASES</p>
+        <div class="searchnav">
+            <p class="brandname">PlushStar</p>
+            <input class="searchbar" type="text" placeholder= "Search">
+            <p><span id="cartnumber">0</span><img class="cart" src="./images/cart-dark.png" alt="cart"></p>
+        </div>
+        <div class="navigation">
+            <p>Home</p>
+            <p>New</p>
+            <p id="products">Products</p>
+            <p>Sales</p>
+            <p>Blog</p>
+            <p onclick="message()">Contact Us</p>
+        </div>
+    </div>
+    <div class="body">
+        <h1 class="storename">Plushy Store</h1>
+        <div class="bodycenter">
+            <p class="sortinfo">62 Products, sorted by <span>Best Selling</span></p>
+            <p>Sort by</p>
+            <select onchange="sortby()" name="bestselling" id="bestselling">
+                <option value="Best Selling">Best Selling</option>
+                <option value="Price">Price</option>
+            </select>
+        </div>
+        <div class="productsection">
+            <div class="product">
+                <img src="./images/product-image.png" alt="product1">
+                <p class="productname">Mischief Mouse</p>
+                <button onclick="shoppingcartIncrease()" class="button">BUY</button>
+            </div>
+            <div class="product">
+                <img src="./images/product-image.png" alt="product2">
+                <p class="productname">Shy Shrew</p>
+                <button onclick="shoppingcartIncrease()" class="button">BUY</button>
+            </div>
+            <div class="product">
+                <img src="./images/product-image.png" alt="product3">
+                <p class="productname">Hangry Hamster</p>
+                <button onclick="shoppingcartIncrease()" class="button">BUY</button>
+            </div>
+            <div class="product">
+                <img src="./images/product-image.png" alt="product4">
+                <p class="productname">Chilly ChinChilla</p>
+                <button onclick="shoppingcartIncrease()" class="button">BUY</button>
+            </div>
+        </div>
+    </div>
+    <script src="./Exam.js"></script>
+</body>
+</html>
